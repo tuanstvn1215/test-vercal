@@ -13,4 +13,6 @@ app.get('/api/item/:slug', (req, res) => {
   res.end(`Item: ${slug}`);
 });
 
+app.get('/hello', (req, res) => { res.send('hello') });
+
 module.exports = app;
