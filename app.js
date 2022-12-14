@@ -15,4 +15,5 @@ app.get('/api/item/:slug', (req, res) => {
 
 app.get('/hello', (req, res) => { res.send('hello') });
 
+app.get('/api/hello', (req, res) => { res.send('hello') });
 module.exports = app;
